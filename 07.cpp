@@ -22,7 +22,8 @@ int main()
     cin>>num[3];
     cout<<"You have stored these no.s : ";
     cout<<num[0]<<" "<<num[1]<<" "<<num[2]<<" "<<num[3]<<endl;
-    cout<<"P-Print numbers\n";
+ do{   
+ cout<<"P-Print numbers\n";
     cout<<"A-Add a number\n";
     cout<<"M-Display mean of the number\n";
     cout<<"S-Display the smallest number\n";
@@ -65,13 +66,10 @@ int main()
                 }
             }
         }
-        if (ch=='q'||ch=='Q') {
-            cout<<"Q-Quit\n";
-        }
     }
     
-    // if(ch!='p'|| ch!='P'||ch!='a'|| ch!='A' ||ch!='m'||ch!='M'||ch!='s'||ch!='S'||ch!='l'||ch!='L'||ch!='q'||ch!='Q'){
-    //cout<<"Unknown selection, please try again.\n";
-    //}
+    while(ch=='q'|| ch=='Q'){
+    cout<<"Unknown selection, please try again.\n";
+    }
     return 0;
 }
