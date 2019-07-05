@@ -32,7 +32,7 @@ void area_cyl(){
     cout<<"Enter the height of cylinder: ";
     cin>>h_t;
     area_cy = (3.14*(pow(rad, 2.0))*(h_t));
-    cout<<"Area of the cylinder: "<<area_cy<<endl;;
+    cout<<"Volume of the cylinder: "<<area_cy<<endl;;
 }
 int main ()
 {
